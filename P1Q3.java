@@ -2,7 +2,7 @@ package practical1;
 
 import java.util.Scanner;
 
-public class Q3 {
+public class P1Q3 {
 	public static void main(String[] args) {
 		// Enter the first point with two double values
 		Scanner input = new Scanner(System.in);
