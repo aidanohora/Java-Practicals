@@ -2,7 +2,7 @@ package practical1;
 
 import java.util.Scanner;
 
-public class Q1 {
+public class P1Q1 {
 	public static void main(String[] args) {
 		// Read radius and length
 		Scanner input = new Scanner(System.in);
