@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q4 {
+public class P2Q4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter an integer between 0 and 15 (inclusive).");
