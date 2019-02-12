@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q6 {
+public class P2Q6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a year");
