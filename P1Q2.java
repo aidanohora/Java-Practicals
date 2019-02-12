@@ -2,7 +2,7 @@ package practical1;
 
 import java.util.Scanner;
 
-public class Q2 {
+public class P1Q2 {
 	public static void main(String[] args) {
 		// Read number of years
 		Scanner input = new Scanner(System.in);
