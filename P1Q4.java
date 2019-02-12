@@ -2,7 +2,7 @@ package practical1;
 
 import java.util.Scanner;
 
-public class Q4 {
+public class P1Q4 {
 	public static void main(String[] args) {
 		// Enter the temperature in Fahrenheit
 		Scanner input = new Scanner(System.in);
