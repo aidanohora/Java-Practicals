@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P4Q4 {
+public class Hangman {
     public static void main(String[] args) {
         String[] words = {"hello", "world", "elephant"};
         int index = (int) (Math.random() * words.length);
