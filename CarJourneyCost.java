@@ -2,7 +2,7 @@ package practical1;
 
 import java.util.Scanner;
 
-public class P1Q5 {
+public class CarJourneyCost {
 	public static void main(String args[]) {
 		// Read driving distance
 		Scanner input = new Scanner(System.in);
