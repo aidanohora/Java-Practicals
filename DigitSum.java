@@ -2,7 +2,7 @@ package practical1;
 
 import java.util.Scanner;
 
-public class P1Q6 {
+public class DigitSum {
 	public static void main(String[] args) {
 		// Read a number
 		Scanner input = new Scanner(System.in);
