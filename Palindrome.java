@@ -1,17 +1,18 @@
 import java.util.Scanner;
 
 public class Palindrome {
-    public static void main (String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String inputString = input.next();
-        StringBuilder sb = new StringBuilder(inputString);
-        for (int i = 0; i < sb.length(); i++) {
-            char preCypher = sb.charAt(i);
-            sb.setCharAt(i, ++preCypher);
+    public static boolean isPalindrome(String string) {
+        if (string.length() == 1) {
+            return true;
+        } else {
+            StringBuilder sb = new StringBuilder(string);
+            for (int i = 0; i < string.length()/2; i++) {
+                if (sb.charAt(i) != sb.charAt(sb.length() - (i + 1))) {
+                    return false;
+                }
+            }
+            return true;
         }
-        System.out.println(sb);
     }
-
 }
 
