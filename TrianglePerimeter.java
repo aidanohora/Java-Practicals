@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P2Q1 {
+public class TrianglePerimeter {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
