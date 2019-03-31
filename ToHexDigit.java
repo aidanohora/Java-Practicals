@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P2Q4 {
+public class ToHexDigit {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter an integer between 0 and 15 (inclusive).");
