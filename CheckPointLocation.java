@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P2Q3 {
+public class CheckPointLocation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter an x co-ordinate.");
